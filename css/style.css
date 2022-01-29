@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Photo_by_Jason_Pofahl_on_Unsplash.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+main {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    font-family: 'Righteous', cursive;
+
+}
+.drumkeys {
+    display: flex;
+    justify-content: space-around;
+}
+
+.drumkeys kbd {
+ font-family: 'Righteous', cursive;
+ font-size: 2em;
+ color: white;
+}
+
+footer {
+    width: 90vw;
+    margin: 0 auto
+}
+
+footer p {
+    width: 30%;
+    text-align: right;
+    position: relative;
+    top: 4em;
+    left: 67rem;
+}
+.image_cred, .image_cred a {
+    color: white;
+    font-size: 0.75rem;
+   
+}
