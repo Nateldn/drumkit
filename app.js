@@ -17,5 +17,65 @@ if (event.keyCode == 65 ) { //play key a -
     boom.currentTime = 0
     boom.play();
 }
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+else if (event.keyCode == 65 ) { //play key a -
+    boom.pause()
+    boom.currentTime = 0
+    boom.play();
+}
+
+
+});
+
+
+kbd.addEventListener("click", (clk) => {
+
 
 });
