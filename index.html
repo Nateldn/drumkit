@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Drum Kit</title>
-    <script scr="app.js" defer></script>
+    
 </head>
 <body>
     <header>
@@ -15,88 +15,95 @@
     <main>
         <!-- Play by Keys .drumkeys #drums -->
        <section class="drumkeys">
-        <div id="hihat">
+        <div>
             <kbd>d</kbd>
-            <audio src="/sounds/hihat.wav"></audio>
+            <audio id="hihat" src="/sounds/hihat.wav"></audio>
         </div>
 
-        <div id="snare">
+        <div>
             <kbd>j</kbd>
-            <audio src="sounds/snare.wav"></audio>
+            <audio id="snare" src="sounds/snare.wav"></audio>
         </div>
 
-        <div id="kick">
+        <div>
             <kbd>f</kbd>
-            <audio src="sounds/kick.wav"></audio>
+            <audio id="kick" src="sounds/kick.wav"></audio>
         </div>
 
-        <div id="boom">
+        <div>
             <kbd>a</kbd>
-            <audio src="sounds/boom.wav"></audio>
+            <audio id="boom" src="sounds/boom.wav"></audio>
         </div>
         
-        <div id="clap">
+        <div>
             <kbd>s</kbd>
-            <audio src="sounds/clap.wav"></audio>
+            <audio id="clap" src="sounds/clap.wav"></audio>
         </div>
 
-        <div id="openhat">
+        <div>
             <kbd>g</kbd>
-            <audio src="sounds/openhat.wav"></audio>
+            <audio id="openhat" src="sounds/openhat.wav"></audio>
         </div>
 
-        <div id="ride">
+        <div>
             <kbd>h</kbd>
-            <audio src="sounds/ride.wav"></audio>
+            <audio id="ride" src="sounds/ride.wav"></audio>
         </div>
 
-        <div id="tom">
+        <div>
             <kbd>l</kbd>
-            <audio src="sounds/tom.wav"></audio>
+            <audio id="tom" src="sounds/tom.wav"></audio>
         </div>
        
-        <div id="tink">
+        <div>
             <kbd>k</kbd>
-            <audio src="sounds/tink.wav"></audio>
+            <audio id="atink" src="sounds/tink.wav"></audio>
         </div>
        </section> 
        <!-- end .drumkeys #drums -->
        
        <section class="drumkit_img">
         <div>
-          <audio id="boom_img"src="drumkit/sounds/boom.wav"></audio>
+        <audio src="/sounds/hihat.wav"></audio>
         </div>
 
         <div>
-          <audio src=""></audio>
+            <audio src="sounds/snare.wav"></audio>
         </div>
 
         <div>
-          <audio src=""></audio>
+            <audio src="sounds/kick.wav"></audio>
         </div>
 
         <div>
-          <audio src=""></audio>
+            <audio src="sounds/boom.wav"></audio>
         </div>
 
         <div>
-         <audio src=""></audio>
+            <audio src="sounds/clap.wav"></audio>
         </div>
 
         <div>
-            <audio src=""></audio>
+            <audio src="sounds/openhat.wav"></audio>
         </div>
 
         <div>
-            <audio src=""></audio>
+            <audio src="sounds/ride.wav"></audio>
         </div>
 
-           
+        <div>
+            <audio src="sounds/tom.wav"></audio>
+        </div>
+
+        <div>
+            <audio src="sounds/tink.wav"></audio>
+        </div>
 
        </section>
     </main>
     
 <footer>
+    <script src="app.js"></script>
    <p class="image_cred">Photo by <a href="https://unsplash.com/@jasonpofahlphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Pofahl</a> on Unsplash</p>
 </footer>
     
